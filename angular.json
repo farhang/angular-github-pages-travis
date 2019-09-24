@@ -49,6 +49,7 @@
               "extractLicenses": true,
               "vendorChunk": false,
               "buildOptimizer": true,
+              "baseHref": "https://farhang.github.io/angular-github-pages-travis/",
               "budgets": [
                 {
                   "type": "initial",
