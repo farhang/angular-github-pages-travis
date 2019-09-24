@@ -14,6 +14,11 @@ install:
 
 script:
   - npm run-script build
+  - pwd
+  - cd dist/angular-github-pages-travis
+  - ls
+  - cd ../..
+  - ls
 
 deploy:
   provider: pages
