@@ -22,4 +22,3 @@ deploy:
   local_dir: dist/angular-github-pages-travis
   on:
     branch: master
-
