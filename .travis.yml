@@ -15,6 +15,7 @@ install:
 script:
   - npm run-script build
   - cd dist/angular-github-pages-travis
+  - cp index.html 404.html
 
 deploy:
   provider: pages
